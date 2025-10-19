@@ -4,7 +4,7 @@ BMI calculator ,built with vanilla JS and responsive design.
 # BMI Calculator
 
 A simple, responsive Body Mass Index (BMI) calculator built with HTML, CSS, and JavaScript. <br>
-It helps users calculate their BMI based on height and weight inputs, with clear categorization and UI feedback.
+It helps users calculate their BMI based on height and weight inputs.
 
 ## 🚀 Live Demo
 [Try the BMI Calculator](https://your-demo-link.com)
