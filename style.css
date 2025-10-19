@@ -1,0 +1,121 @@
+:root {
+    --bg-color: #f0f4f8;
+    --text-color: #333;
+    --box-bg: #ffffff;
+    --box-text: #000;
+    --border-color:  rgb(206, 186, 186);
+    --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    --box-shadow-hover: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+:root.dark {
+    --bg-color: #121212;
+    --text-color: #eee;
+    --box-bg: #1e1e1e;
+    --box-text: #fff;
+    --border-color: #e6dcdc;
+    --box-shadow: 0px 8px 16px rgba(247, 243, 243, 0.6);
+    --box-shadow-hover: 0 0 12px rgba(194, 175, 175, 0.3);
+}
+body {
+    background-color: var(--bg-color);
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color:var(--text-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.kala {
+    /* background-color: yellow; */
+    /* width: 500px; */
+    display: flex;
+    justify-content: end;
+}
+
+.Black {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20%;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+}
+
+.bmiBox {
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: 2rem;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); */
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.submit2 {
+    display: flex;
+    justify-content: center;
+}
+
+form p {
+    margin: 0.5rem 0;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button.submit {
+    padding: 0.75rem 1.5rem;
+    background-color: #00b894;
+    color: white;
+    border-color: var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.submit:hover {
+    background-color: #019875;
+    transform: scale(1.05);
+}
+
+button.submit:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+    /* background-color: rgb(42, 11, 11);
+    color: whitesmoke;
+    width: 40vmin;
+    height: 8vmin;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: #ffeaa7;
+    color: #333;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
