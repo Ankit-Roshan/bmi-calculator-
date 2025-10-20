@@ -7,7 +7,7 @@ A simple, responsive Body Mass Index (BMI) calculator built with HTML, CSS, and 
 It helps users calculate their BMI based on height and weight inputs.
 
 ## 🚀 Live Demo
-[Try the BMI Calculator]([https://your-demo-link.com](https://bmi-calculator-jwbz00r2y-ankits-projects-784efa4d.vercel.app)
+[Try the BMI Calculator][https://your-demo-link.com](https://bmi-calculator-jwbz00r2y-ankits-projects-784efa4d.vercel.app)
 
 ## 📦 Features
 -  Input fields for height (cm) and weight (kg)
