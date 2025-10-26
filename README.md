@@ -7,7 +7,7 @@ A simple, responsive Body Mass Index (BMI) calculator built with HTML, CSS, and 
 It helps users calculate their BMI based on height and weight inputs.
 
 ## 🚀 Live Demo
-[Try the BMI Calculator](bmi-calculator-sepia-nu.vercel.app)
+[Try the BMI Calculator](https://bmi-calculator-sepia-nu.vercel.app/)
 
 ## 📦 Features
 -  Input fields for height (cm) and weight (kg)
